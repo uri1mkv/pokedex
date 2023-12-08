@@ -1,0 +1,16 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "buscador de pokemons de primera generacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "javascript"
+  ],
+  "author": "uri",
+  "license": "ISC"
+}

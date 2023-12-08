@@ -1,0 +1,80 @@
+:root {
+  --black: black;
+  --white: white;
+  --gray: #434343;
+  --yellow: #f6a700;
+}
+
+@font-face {
+  font-family: "Dhurjati";
+  src: url(recursos/Dhurjati/Dhurjati-Regular.ttf);
+}
+
+@media screen and (max-width: 768px) {
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to top right, #000000, #434343);
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pokeTitle {
+  font-family: Dhurjati;
+  font-size: 3rem;
+  color: var(--yellow);
+}
+
+#pokeImage {
+  width: 15rem;
+  height: 15rem;
+}
+
+#pokeName {
+  font-family: Dhurjati;
+  font-size: 3rem;
+  color: var(--white);
+  text-transform: uppercase;
+  box-shadow: 0px 20px 20px 0px #222;
+  text-align: center;
+  width: 100%;
+}
+
+.search__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#pokeText {
+  background: 0;
+  border: 0;
+  outline: none;
+  width: 17rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--white);
+}
+
+#pokeButton {
+  font-family: Dhurjati;
+  width: 100%;
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  background-color: var(--yellow);
+  color: var(--black);
+  box-shadow: 0 0 25px #222;
+}
